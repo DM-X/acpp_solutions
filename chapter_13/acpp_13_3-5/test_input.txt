@@ -1,0 +1,10 @@
+G Jon      1 23 43 6 7 2 455 43
+G I_invalg 1 1
+U Daniel   2 3 5 2 5 
+U S_invalu 1 2 1
+G S_invalg 1 2 1
+G Na       97 99 98 98 79 99 455 43
+U Peter    80 93 4 6 28 2 42
+U Sam      90 92 34 42 92 94
+G Lisa     42 29 5 23 39 3
+ 

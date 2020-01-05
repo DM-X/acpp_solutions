@@ -1,0 +1,38 @@
+string_pic.cpp: In member function ‘virtual Pic_base::wd_sz String_Pic::width() const’:
+string_pic.cpp:12:32: error: ‘max’ was not declared in this scope
+       n = max(n, data[i].size());
+                                ^
+string_pic.cpp:12:32: note: suggested alternative:
+In file included from /usr/include/c++/6/bits/char_traits.h:39:0,
+                 from /usr/include/c++/6/ios:40,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from string_pic.hpp:4,
+                 from string_pic.cpp:1:
+/usr/include/c++/6/bits/stl_algobase.h:265:5: note:   ‘std::max’
+     max(const _Tp& __a, const _Tp& __b, _Compare __comp)
+     ^~~
+string_pic.cpp: At global scope:
+string_pic.cpp:17:26: error: variable or field ‘display’ declared void
+ void String_Pic::display(ostream& os, ht_sz row, bool do_pad) const
+                          ^~~~~~~
+string_pic.cpp:17:26: error: ‘ostream’ was not declared in this scope
+string_pic.cpp:17:26: note: suggested alternative:
+In file included from /usr/include/c++/6/ios:38:0,
+                 from /usr/include/c++/6/ostream:38,
+                 from /usr/include/c++/6/iostream:39,
+                 from string_pic.hpp:4,
+                 from string_pic.cpp:1:
+/usr/include/c++/6/iosfwd:141:33: note:   ‘std::ostream’
+   typedef basic_ostream<char>   ostream;
+                                 ^~~~~~~
+string_pic.cpp:17:35: error: ‘os’ was not declared in this scope
+ void String_Pic::display(ostream& os, ht_sz row, bool do_pad) const
+                                   ^~
+string_pic.cpp:17:39: error: ‘ht_sz’ was not declared in this scope
+ void String_Pic::display(ostream& os, ht_sz row, bool do_pad) const
+                                       ^~~~~
+string_pic.cpp:17:50: error: expected primary-expression before ‘bool’
+ void String_Pic::display(ostream& os, ht_sz row, bool do_pad) const
+                                                  ^~~~
+make: *** [all] Error 1

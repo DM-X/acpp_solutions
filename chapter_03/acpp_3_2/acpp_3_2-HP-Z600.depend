@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1563623139 source:/home/daniel/OneDrive/acpp/acpp_3_2/main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+

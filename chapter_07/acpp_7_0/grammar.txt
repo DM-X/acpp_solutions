@@ -1,0 +1,17 @@
+<noun> cat
+<noun> dog
+<noun> table
+<noun> Daniel
+<noun> Na
+<noun-phrase> <noun>
+<noun-phrase> <adjective> <noun>
+<adjective> large
+<adjective> brown
+<adjective> absurd
+<verb> jumps
+<verb> sits
+<verb> smiles
+<location> on the stairs
+<location> under the sky
+<location> wherever it wants
+<sentence> the <noun-phrase> <verb> <location>

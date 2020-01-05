@@ -1,0 +1,7 @@
+Student_info elements are: std::string, std::vector, and double.
+The class variables copied, assigned and destructed by their own copy 
+constructor, assignment constructor, and destructor.
+The double is value initialized to 0.0 and default "uninitialized". 
+The doubles are assigned and copied by their values. There is no deconstructor 
+for build-in types, so only 2 members (the name and the homework vector) are 
+destroyed by the synthesized destructor.

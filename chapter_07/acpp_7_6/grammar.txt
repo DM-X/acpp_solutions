@@ -1,0 +1,17 @@
+<noun> Na
+<noun> wife
+<noun> love
+<noun> sweety 
+<noun-phrase> <noun>
+<noun-phrase> <adjective> <noun>
+<adjective> beautiful 
+<adjective> wonderful 
+<adjective> lovely 
+<adjective> attractive 
+<verb> laughs 
+<verb> relaxes 
+<verb> smiles
+<location> in the park
+<location> under the sky
+<location> wherever she wants
+<sentence> My <noun-phrase> <verb> <location>
